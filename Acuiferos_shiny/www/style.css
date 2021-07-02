@@ -1,0 +1,67 @@
+@font-face { 
+   font-family: testfont;
+   src: url('Nutmeg-Black.otf') format("opentype");
+}
+
+@font-face { 
+   font-family: Nutria;
+   src: url('Nutmeg-Book.otf') format("opentype");
+}
+
+.navbar1 .navbar{
+   background-color: #7C868D;
+}
+
+.navbar1 .navbar-default .navbar-brand{
+   font-family: Nutria;
+   color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: #FFFFFF;
+   font-family: Nutria;
+}
+
+.navbar1 .navbar-nav li a:hover, .navbar1 .navbar-nav > .active > a {
+   color: #000000;
+   background-color:#BCCDD6;
+   font-family: Nutria;
+   background-image: #BCCDD6;
+}
+
+body {
+  background-color: #F8F8FF;
+}
+
+p{
+   font: 1.5em;
+   font-family: Nutria;
+   text-align: justify;
+  text-justify: inter-word;
+}
+
+#filtros {
+  font-family: Nutria;
+  background-color: #BCCDD6;
+}
+
+#titulo_imagen{
+   font: 3em;
+   font-family: testfont;
+   text-align: center;
+}
+
+#descarga{
+   font-family: Nutria;
+}
+
+#glosario{
+   float: right;
+}
+
+.leaflet-container{
+  color:#fff;
+  font-size:16px;
+  line-height:24px;
+}
+
